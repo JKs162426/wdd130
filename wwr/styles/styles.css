@@ -1,5 +1,27 @@
-div {
+div #content {
     width: 100%;
     max-width: 1600 px;
+    margin-left: auto;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
 }
 
