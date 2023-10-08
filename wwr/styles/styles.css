@@ -7,7 +7,7 @@ div #content {
 
 nav a {
     text-align: center;
-    color: white;
+    color: #023047;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ nav a {
 }
 
 h4 {
-    color: white;
+    color: #219ebc;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -48,7 +48,7 @@ main section {
 }
 
 body {
-    background-color: white;
+    background-color: #ffb703;
 }
 
 header {
@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 .msg h2 {
-    color: #8ecae6;
+    color: #023047;
 }
 
 .msg p {
