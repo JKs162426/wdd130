@@ -20,11 +20,11 @@ nav a {
 }
 
 .home-title {
-    color: #8ecae6;
+    color: #023047;
 }
 
-h4 {
-    color: #219ebc;
+h1, h4 {
+    color: #023047;
 }
 
 #hero-msg h1, #hero-msg h4 {
