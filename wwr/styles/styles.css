@@ -103,8 +103,8 @@ nav a:hover {
 }
 
 .book:hover, .join:hover {
-    background-color: #023047;
-    color: #8ecae6;
+    background-color: #8ecae6;
+    color: #023047;
 }
 
 #background {
