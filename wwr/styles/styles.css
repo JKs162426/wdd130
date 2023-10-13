@@ -34,6 +34,7 @@ nav a {
     color: #023047;
     font-family: "Julee", Helvetica, sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 h1, h4 {
@@ -77,12 +78,17 @@ nav a:hover {
     color: #8ecae6;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .book, .join {
     background-color: #8ecae6;
     color: #023047;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover {
@@ -116,6 +122,7 @@ footer {
     background-color: #023047;
     color: #8ecae6;
     padding: 25px 50px;
+    margin-top: 200px;
 
 }
 
