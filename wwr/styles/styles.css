@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Rubik&display=swap');
+
 #content {
     width: 100%;
     max-width: 1600px;
@@ -21,6 +23,7 @@ nav a {
 
 .home-title {
     color: #023047;
+    font-family: Julee, Helvetica, sans-serif;
 }
 
 h1, h4 {
@@ -81,6 +84,7 @@ nav a:hover {
 
 .msg h2 {
     color: #023047;
+    font-family: Julee, Helvetica, sans-serif;
 }
 
 .msg p {
