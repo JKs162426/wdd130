@@ -5,9 +5,6 @@
     max-width: 1600px;
     margin-left: auto;
     margin: 0 auto;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
 }
 
 nav a {
@@ -21,7 +18,7 @@ nav a {
     width: 80px;
 }
 
-#logo {
+#logo_link {
     padding-top: 5px;
 }
 
@@ -72,6 +69,10 @@ main section img {
 
 body {
     background-color: #ffb703;
+    font-family: "Rubik", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
