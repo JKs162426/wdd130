@@ -89,12 +89,12 @@ nav a:hover {
 }
 
 .card-img {
-    border: 10px;
+    border: 10px solid #023047;
 }
 
 .book, .join {
-    background-color: #8ecae6;
-    color: #023047;
+    background-color: #023047;
+    color: #8ecae6;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
