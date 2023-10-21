@@ -133,6 +133,7 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
+  width: 800px;
   height: 800px;
 }
 .red5 { 
