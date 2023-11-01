@@ -35,7 +35,7 @@ nav a {
 }
 
 .home-title {
-    color: #023047;
+    color: #8ecae6;
     font-family: "Julee", Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
@@ -43,7 +43,7 @@ nav a {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 h1, h4 {
