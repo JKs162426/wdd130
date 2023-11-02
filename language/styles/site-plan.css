@@ -1,29 +1,30 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&family=Nunito&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #f2b705   ;
+  --secondary-color: #f2522e ;
+  --accent1-color: white;
+  --accent2-color: black
+  ;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Nunito";
+  --paragraph-font: Mulish, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #f2b705;  /* headlines on a white background */ 
+  --headline-color-on-color: #f2522e; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #f2b705; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #f2522e; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-link-color: #f2b705;
+  --nav-background-color: #f2522e;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: black;
 }
 
 
