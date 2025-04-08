@@ -189,4 +189,68 @@ footer p {
     height: auto;
     margin: 20px;
     text-decoration: none;
+    border-radius: 50%;
+}
+
+.contact-info {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 30px;
+    align-items: center;
+}
+
+.map {
+    width: 200px;
+    height: auto;
+    grid-column: 2/3;
+}
+
+#info {
+    grid-column: 1/2;
+}
+
+.message {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+textarea {
+    width: 400px;
+    height: auto;
+    margin: 15px;
+}
+
+button {
+    margin: 15px;
+}
+
+h1, h2, p, label,legend {
+    color: var(--accent1-color);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.employees img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.employee1 {
+    grid-column: 1/2;
+}
+
+.employee2 {
+    grid-column: 2/3;
+}
+
+.employee3 {
+    grid-column: 3/4;
 }

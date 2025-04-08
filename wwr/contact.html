@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page with the information to contact the company">
+    <meta name="author" content="Jesús Figueroa">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Whitewater Rafting Adventure - Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-info">
+            <div>
+                <h1 class="contact">Contact Us</h1>
+                <h2 id="info-title">Whitewater Rafting Adventure</h2>
+                <p id="info-phone">Phone: 958340528</p>
+                <p id="info-email">Email: wwradventure@wwra.cl</p>
+                <p id="info-address">Address: Zenteno 1490, Santiago de Chile, Chile</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.554652784559!2d-70.3549383469524!3d-33.607935485354396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967d2ba776f0d3d5%3A0x42a786b8e23b19a0!2sGuayapark!5e0!3m2!1sen!2sus!4v1743992639833!5m2!1sen!2sus" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="employees">
+            <h2>Our Staff</h2>
+            <div class="container">
+                <div class="employee1">
+                    <img src="images/employye1.jpg" alt="employee1">
+                    <h3>Daniela Ruiz - Rafting Guide</h3>
+                    <p>"Expert in adrenaline and safety. Your adventure starts with her smile!"</p>
+                </div>
+                <div class="employee2">
+                    <img src="images/employee2.jpg" alt="employee2">
+                    <h3>Marco Torres - Equipment Specialist</h3>
+                    <p>"He makes sure every paddle and life jacket is ready for action."</p>
+                </div>
+                <div class="employee3">
+                    <img src="images/employee3.jpg" alt="employee3">
+                    <h3>Sofía Herrera - Guest Experience Coordinator</h3>
+                    <p>"Welcoming you with good vibes before and after the river ride!"</p>
+                </div>
+            </div>
+        </div>
+        <section class="message">
+            <h2>Send Us a Message</h2>
+            <form>
+                <fieldset>
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="purpose">Purpose of Message:</label>
+                    <select id="purpose" name="purpose" required>
+                        <option value="">--Select--</option>
+                        <option value="question">Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="support">Support Request</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                    <div class="msj-area">
+                        <label for="feedback"></label>
+                        <textarea name="feedback" id="feedback" rows="4" placeholder=""></textarea>
+                    </div>
+                <div class="form-item column1">
+                    <input type="checkbox" id="subscription" name="subscription">
+                    <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                </div>
+                </fieldset>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 -- Whitewater Rafting Adventure -- Jesús</p>
+        <a href="https://app.moqups.com/8LBFmEPOmouChhi0GRmpcdcCqL1iL6x5/edit/page/a57f5c842">Wireframe</a>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x.png" alt="X">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
