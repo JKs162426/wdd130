@@ -18,6 +18,8 @@ body {
 nav {
     padding: 10px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
@@ -25,7 +27,14 @@ nav a {
     display: block;
     padding: 20px;
     text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
+
+nav a:hover {
+    color: lightcoral;
+    transform: scale(1.2);
+  }
 
 h1 {
     color: var(--heading-text-color);
@@ -38,6 +47,11 @@ main img {
     padding: 2px;
     box-shadow: 0 0 50px white;
     float: right;
+    transition: transform 0.3s ease
+}
+
+main img:hover {
+    transform: scale(1.15);
 }
 
 p {
@@ -49,10 +63,20 @@ main {
     max-width: 840px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 ul h2, a {
     color: darkblue;
     text-decoration: none;
 }
+
+ul a:hover {
+    color: lightcoral;
+    transform: scale(1.15);
+  }
+
 
 aside {
     width: 20rem;
